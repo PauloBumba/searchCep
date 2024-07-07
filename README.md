@@ -1,7 +1,7 @@
 # Buscar Cep
 
 Este é um projeto de formulário simples que permite ao usuário buscar informações de endereço a partir de um CEP (Código de Endereçamento Postal) utilizando a API do ViaCEP.
-
+https://paulobumba.github.io/searchCep/
 ## Funcionalidades
 
 - Buscar informações de endereço (estado, cidade, bairro e rua) a partir de um CEP.
