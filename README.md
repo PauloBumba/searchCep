@@ -23,10 +23,4 @@ Este é um projeto de formulário simples que permite ao usuário buscar informa
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
-├── src
-│   ├── Styles
-│   │   └── index.css
-│   └── javascripts
-│       └── index.js
-├── index.html
-└── README.md
+
