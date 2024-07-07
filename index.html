@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/Styles/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Buscar Cep</title>
+</head>
+<body>
+    <section>
+        <form action="" autocomplete="on">
+            <h1>Buscar cep</h1>
+            <p>
+                <label for="cep">Cep:</label>
+                <input type="number" name="cep" id="cep" autocomplete="cc-number" required>
+            </p>
+            <p><input type="button" id="buscarCep" value="buscar"></p>
+            <p>
+                <label for="pais">País:</label>
+                <input type="text" name="pais" id="pais">
+            </p>
+            <p>
+                <label for="estado">Estado:</label>
+                <input type="text" name="estado" id="estado">
+            </p>
+            <p>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade">
+            </p>
+            <p>
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro" id="bairro">
+            </p>
+            <p>
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua" id="rua">
+            </p>
+            <p>
+                <label for="complemento">Complemento:</label>
+                <select name="complemento" id="complemento">
+                    <option value="Casa">Casa</option>
+                    <option value="Apartamento">Apartamento</option>
+                    <option value="Porão">Porão</option>
+                </select>
+            </p>
+            <p>
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" id="numero">
+            </p>
+        </form>
+        <script src="src/javascripts/index.js"></script>
+        
+    </section>
+</body>
+</html>
