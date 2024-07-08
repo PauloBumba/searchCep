@@ -7,7 +7,7 @@ $(document).ready(function () {
                 const url = `https://viacep.com.br/ws/${cep}/json/`;
                 const response = await fetch(url);
                 if (!response.ok) {
-                    throw new Error('Erro ao buscar a API do ViaCEP');
+                    alert('Erro ao buscar a API do ViaCEP');
                 }
                 const data = await response.json();
                 $('#pais').val("Brasil")
@@ -19,7 +19,7 @@ $(document).ready(function () {
                 console.log(error);
             }
         } else {
-            console.log("CEP inválido");
+            alert("CEP inválido");
         }
     }
 
