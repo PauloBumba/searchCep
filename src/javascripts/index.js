@@ -10,6 +10,9 @@ $(document).ready(function () {
                     alert('Erro ao buscar a API do ViaCEP');
                 }
                 const data = await response.json();
+                if(data.error){
+                    alert("cep não encotrado")
+                }
                 $('#pais').val("Brasil")
                 $('#estado').val(data.uf);
                 $('#cidade').val(data.localidade);
